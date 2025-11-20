@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIABRED BOLIVIA - Red de Conocimiento y Apoyo sobre Diabetes</title>
+    <meta name="description" content="DIABRED BOLIVIA - Información, herramientas educativas y apoyo sobre diabetes mellitus. Predictor educativo de riesgo glucémico y recursos médicos.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="imagenes/154210250-diabetes.jpg" alt="DIABRED BOLIVIA Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>DIABRED BOLIVIA</h1>
+                        <p class="tagline">Red de conocimiento y apoyo — Diabetes Mellitus</p>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#concepto" class="nav-link">¿Qué es?</a>
+                    <a href="#clasificacion" class="nav-link">Clasificación</a>
+                    <a href="#tratamiento" class="nav-link">Tratamiento</a>
+                    <a href="#dieta" class="nav-link">Dieta</a>
+                    <a href="#herramienta" class="nav-link nav-cta">Herramienta</a>
+                    <a href="#articulos" class="nav-link">Artículos</a>
+                    <a href="#equipo" class="nav-link">Equipo</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Diabetes Mellitus: Ciencia, Acompañamiento y Herramientas Digitales</h2>
+                <p class="hero-description">
+                    DIABRED BOLIVIA acerca conocimiento científico y tecnología (herramientas educativas y predictivas) 
+                    para pacientes y profesionales. Aquí encontrarás teoría, guías prácticas, artículos accesibles y 
+                    la herramienta interactiva educativa que te ayudará a comprender riesgos glucémicos.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#herramienta" class="btn btn-primary">Usar Herramienta</a>
+                    <a href="#articulos" class="btn btn-secondary">Ver Artículos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Section 1: ¿Qué es la Diabetes Mellitus? -->
+            <section id="concepto" class="content-section">
+                <h2 class="section-title">1. ¿Qué es la Diabetes Mellitus?</h2>
+                
+                <div class="subsection">
+                    <h3 class="subsection-title">Definición</h3>
+                    <p>
+                        La diabetes mellitus es un grupo de enfermedades crónicas que afectan la forma en que nuestro cuerpo 
+                        procesa el azúcar (glucosa) de los alimentos. En condiciones normales, la insulina una hormona producida 
+                        por el páncreas permite que la glucosa entre a las células para ser utilizada como energía. En la diabetes, 
+                        este proceso no funciona correctamente debido a que:
+                    </p>
+                    <ul class="content-list">
+                        <li>El páncreas no produce suficiente insulina, o</li>
+                        <li>El cuerpo no puede utilizar adecuadamente la insulina que produce, o</li>
+                        <li>Ambas situaciones ocurren simultáneamente</li>
+                    </ul>
+                    <p>
+                        Como resultado, la diabetes se caracteriza por niveles elevados de glucosa en la sangre (hiperglucemia), 
+                        lo que con el tiempo puede causar daño a diversos órganos y sistemas del cuerpo.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">¿Por qué es importante?</h3>
+                    <p>
+                        La elevación crónica de glucosa en sangre, junto con otras alteraciones que produce la diabetes, puede causar 
+                        complicaciones graves en vasos sanguíneos pequeños (microvasculares) y grandes (macrovasculares), las cuales 
+                        son principalmente responsables de las complicaciones, discapacidad y mortalidad asociadas a esta enfermedad.
+                    </p>
+                    <p>
+                        La diabetes puede afectar múltiples sistemas del cuerpo, incluyendo el corazón, los riñones, los ojos, los 
+                        nervios y los vasos sanguíneos, desarrollando complicaciones que pueden ser discapacitantes e incluso mortales.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 2: Clasificación Clínica -->
+            <section id="clasificacion" class="content-section">
+                <h2 class="section-title">2. Clasificación Clínica Actual</h2>
+                <p>
+                    La diabetes se clasifica convencionalmente en varias categorías clínicas, aunque estas están siendo reconsideradas 
+                    con base en características genéticas, metabolómicas y otras características fisiopatológicas. Las cuatro categorías 
+                    clínicas principales según los estándares ADA 2025 son:
+                </p>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Diabetes Tipo 1</h3>
+                        <p>Debida a destrucción autoinmune de células beta, usualmente llevando a deficiencia absoluta de insulina, 
+                        incluyendo diabetes autoinmune latente en adultos (LADA)</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Diabetes Tipo 2</h3>
+                        <p>Debida a pérdida progresiva no autoinmune de la secreción adecuada de insulina por células beta, frecuentemente 
+                        sobre un trasfondo de resistencia a la insulina</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Tipos Específicos</h3>
+                        <p>Incluyendo síndromes de diabetes monogénica (como diabetes neonatal y MODY), enfermedades del páncreas exocrino 
+                        (como fibrosis quística y pancreatitis), y diabetes inducida por fármacos o químicos</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Diabetes Gestacional</h3>
+                        <p>Diabetes diagnosticada en el segundo o tercer trimestre del embarazo que no era claramente diabetes manifiesta 
+                        previa a la gestación</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Clasificación y Criterios ADA 2025 -->
+            <section id="ada" class="content-section">
+                <h2 class="section-title">3. Clasificación y Criterios (ADA 2025)</h2>
+                <p class="note-text">
+                    <strong>Resumen orientativo, consulte guías locales o la ADA completa para detalles.</strong>
+                </p>
+                
+                <div class="criteria-list">
+                    <div class="criterion-item">
+                        <span class="criterion-icon">📊</span>
+                        <div>
+                            <strong>Glucemia en ayunas ≥ 126 mg/dL (≥ 7.0 mmol/L)</strong> en muestra venosa, confirmar si es posible.
+                        </div>
+                    </div>
+                    <div class="criterion-item">
+                        <span class="criterion-icon">🧪</span>
+                        <div>
+                            <strong>OGTT (2 h) ≥ 200 mg/dL (≥ 11.1 mmol/L)</strong> prueba de tolerancia oral a la glucosa.
+                        </div>
+                    </div>
+                    <div class="criterion-item">
+                        <span class="criterion-icon">🔬</span>
+                        <div>
+                            <strong>HbA1c ≥ 6.5%</strong> método estandarizado (NGSP/IFCC), tomar en contexto clínico.
+                        </div>
+                    </div>
+                    <div class="criterion-item">
+                        <span class="criterion-icon">⚡</span>
+                        <div>
+                            <strong>Glucemia aleatoria ≥ 200 mg/dL</strong> con síntomas clásicos (poliuria, polidipsia, pérdida de peso).
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Tratamiento y Enfoque Integral -->
+            <section id="tratamiento" class="content-section">
+                <h2 class="section-title">4. Tratamiento y Enfoque Integral</h2>
+                
+                <div class="highlight-box">
+                    <h3>Objetivo principal: cuidar la diabetes: un enfoque completo para tu bienestar</h3>
+                    <p>
+                        La diabetes no es solo una cuestión de azúcar alta. Cuidarla bien significa proteger tu corazón, tus riñones, 
+                        tus ojos, tus pies, tu calidad de vida en general. Aquí te explicamos, paso a paso, qué se recomienda hoy 
+                        en día según las mejores guías médicas del mundo.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Metas personalizadas: no hay un solo camino</h3>
+                    <p>
+                        Cada persona es diferente. Por eso, el objetivo no es "bajar la glucosa a toda costa", sino encontrar tu meta 
+                        ideal, considerando:
+                    </p>
+                    <ul class="content-list">
+                        <li>Tu edad y energía</li>
+                        <li>Otras enfermedades que puedas tener (como presión alta, problemas del corazón o riñones)</li>
+                    </ul>
+                    <p>
+                        <strong>Ejemplo:</strong> Si eres joven y sano, se busca un control más estricto. Si eres adulto mayor o tienes 
+                        otras enfermedades, se prioriza evitar bajones de azúcar y mantener tu bienestar diario.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Aprender a manejar tu diabetes (y sentirte seguro)</h3>
+                    <p>
+                        Saberte cuidar es la clave. Esto incluye:
+                    </p>
+                    <ul class="content-list">
+                        <li>
+                            Reconocer cuándo el azúcar está muy bajo (sudor, mareo, temblor) y cómo actuar rápido (tomar 15 gramos 
+                            de azúcar, como media lata de refresco o jugo)
+                        </li>
+                        <li>
+                            Inyectarte insulina correctamente (si la usas): rotar zonas (brazo, abdomen, pierna), usar agujas nuevas 
+                            y entender tus dosis
+                        </li>
+                        <li>
+                            Ajustar tu alimentación o medicinas si vas a hacer ejercicio, estás enfermo o vas a salir de viaje
+                        </li>
+                    </ul>
+                    <p class="important-note">
+                        <strong>Importante:</strong> No estás solo. Existen educadores en diabetes (enfermeros, nutricionistas, médicos) 
+                        que te enseñan paso a paso. Pide ayuda.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Medicamentos: más que pastillas</h3>
+                    <p>
+                        El tratamiento depende de tu tipo de diabetes y tu salud general:
+                    </p>
+                    <ul class="content-list">
+                        <li><strong>Diabetes tipo 1:</strong> Siempre requiere insulina, porque el cuerpo no la produce.</li>
+                        <li>
+                            <strong>Diabetes tipo 2:</strong> Puede empezar con metformina (una pastilla segura y efectiva), pero no es 
+                            la única opción, siempre consultar a tu médico.
+                        </li>
+                    </ul>
+                    <p>
+                        Hoy existen medicamentos que, además de bajar el azúcar, protegen el corazón y los riñones, como inyecciones 
+                        semanales (como semaglutida) que ayudan a controlar el azúcar y bajar de peso.
+                    </p>
+                    <p>
+                        La insulina no es un "fracaso". Es una herramienta poderosa cuando se necesita. Muchas personas con diabetes 
+                        tipo 2 la usan en algún momento, y está bien.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Revisión regular: prevenir antes de que duela</h3>
+                    <p>
+                        Muchas de las complicaciones de la diabetes no causan dolor ni molestias al principio. Puede tener daño en los 
+                        ojos, riñones, nervios o corazón durante años, sin darse cuenta. Por eso la prevención no se basa en esperar 
+                        a que aparezcan síntomas, sino en hacer controles regulares y sencillos recomendados por la American Diabetes 
+                        Association (ADA 2025) y adaptados a nuestra realidad:
+                    </p>
+                    
+                    <div class="prevention-grid">
+                        <div class="prevention-card">
+                            <h4>👁️ En los ojos</h4>
+                            <p>
+                                La retinopatía diabética es una de las causas más comunes de ceguera prevenible. Se recomienda una 
+                                retinografía digital o examen con oftalmoscopio al menos una vez al año, especialmente si ya hay cambios 
+                                leves. Un control glucémico estable (HbA1c &lt;7% en la mayoría de los casos) reduce significativamente 
+                                el riesgo de progresión.
+                            </p>
+                        </div>
+                        <div class="prevention-card">
+                            <h4>🫘 En los riñones</h4>
+                            <p>
+                                El daño suele comenzar con la presencia de pequeñas cantidades de proteína en la orina (microalbuminuria) 
+                                y una disminución gradual de la función renal (medida como filtrado glomerular, o eGFR). Por eso es esencial 
+                                realizar análisis de orina para albumina/creatinina y medir el eGFR al menos una vez al año o dos veces si 
+                                ya hay alteraciones. Además, mantener la presión arterial por debajo de 130/80 mmHg.
+                            </p>
+                        </div>
+                        <div class="prevention-card">
+                            <h4>🦶 En los pies</h4>
+                            <p>
+                                La neuropatía periférica (pérdida de sensibilidad) y la mala circulación aumentan el riesgo de úlceras y 
+                                amputaciones. La evaluación debe incluir el uso del monofilamento de 10 g para probar la sensibilidad táctil, 
+                                la inspección de la piel y las uñas y la revisión del calzado. Pero lo más importante: usted mismo puede hacer 
+                                una inspección diaria de sus pies buscar cortes, enrojecimiento, zonas calientes o heridas que no sanan y acudir 
+                                inmediatamente a su médico si nota algo inusual.
+                            </p>
+                        </div>
+                        <div class="prevention-card">
+                            <h4>❤️ En el corazón</h4>
+                            <p>
+                                La enfermedad cardiovascular es la causa número uno de muerte en personas con diabetes. Por eso además de controlar 
+                                la glucosa, debemos evaluar el riesgo global: medir colesterol (especialmente LDL), presión arterial y si es 
+                                necesario realizar un electrocardiograma o prueba de esfuerzo. Las guías actuales recomiendan metas más estrictas: 
+                                LDL &lt;70 mg/dL si ya ha tenido un infarto o angina y el uso de estatinas en casi todos los adultos con diabetes 
+                                tipo 2 mayores de 40 años.
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="bolivia-note">
+                        <strong>En Bolivia</strong> los estudios locales indican que una proporción importante de pacientes no recibe estos controles 
+                        de forma regular no por falta de interés sino por barreras de acceso, información o seguimiento. Por eso nuestra plataforma 
+                        busca no solo informar sino acompañar, ponemos a su disposición artículos médicos descargables en PDF, elaborados con base 
+                        en guías internacionales y adaptados a nuestra realidad, así como los números de contacto directo de los profesionales 
+                        del equipo médico para facilitar una orientación oportuna y el acceso a atención especializada cuando sea necesario.
+                    </p>
+                    <p class="important-note">
+                        <strong>Detectar a tiempo no es esperar a que duela. Es actuar con conocimiento, prevención y apoyo continuo.</strong>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 5: Dieta y Recomendaciones -->
+            <section id="dieta" class="content-section">
+                <h2 class="section-title">5. Dieta y Recomendaciones Prácticas para Pacientes</h2>
+                
+                <p>
+                    La alimentación no es una "lista de prohibiciones" sino una herramienta poderosa para mejorar el control glucémico, 
+                    reducir el riesgo cardiovascular y aumentar su energía diaria. Las guías actuales como las de la American Diabetes 
+                    Association (ADA 2025) y la International Diabetes Federation (IDF 2024) ya no recomiendan una sola dieta universal. 
+                    En cambio, proponen un enfoque flexible, culturalmente sensible y centrado en alimentos reales, no solo en cifras.
+                </p>
+                <p>
+                    El objetivo no es eliminar los carbohidratos sino elegir los más adecuados y en cantidades que su cuerpo pueda manejar. 
+                    Por ejemplo, un plato de arroz integral con verduras y pollo es distinto en impacto glucémico y nutricional a un plato 
+                    de arroz blanco con frituras. La clave está en la calidad combinación y momento de lo que come.
+                </p>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">El método del plato: simple, visual y efectivo</h3>
+                    <p>
+                        Imagínese un plato común de tamaño estándar, divídalo mentalmente así:
+                    </p>
+                    <div class="plate-method">
+                        <div class="plate-item">
+                            <div class="plate-half"></div>
+                            <p><strong>La mitad</strong> debe ser de verduras no feculentas: espinacas, acelga, zanahoria cruda, brócoli, 
+                            apio, tomate, pimientos. Pueden estar cocidas, al vapor o a la plancha, con poco aceite. Aportan fibra, 
+                            vitaminas y saciedad sin elevar mucho la glucosa.</p>
+                        </div>
+                        <div class="plate-item">
+                            <div class="plate-quarter"></div>
+                            <p><strong>Un cuarto</strong> para proteína magra: pollo sin piel, pescado (sardina, trucha, atún en agua), 
+                            huevo, quinua, frijoles, lentejas o carne magra (una porción del tamaño de la palma de su mano). La proteína 
+                            ayuda a estabilizar la glucosa y mantiene los músculos fuertes.</p>
+                        </div>
+                        <div class="plate-item">
+                            <div class="plate-quarter"></div>
+                            <p><strong>El último cuarto</strong> para carbohidratos complejos: arroz integral, papa con piel, quinua, 
+                            avena natural, choclo tierno o pan de grano entero. Estos alimentos liberan el azúcar lentamente, evitando 
+                            picos bruscos.</p>
+                        </div>
+                    </div>
+                    <p>
+                        Este método no requiere pesas ni cálculos complicados y se adapta fácilmente a la comida boliviana: sopa de maní 
+                        con verduras extra, cuarto de carne asada y una porción moderada de arroz.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Alimentos que sí ayudan y por qué</h3>
+                    <ul class="content-list">
+                        <li>
+                            <strong>Fibra soluble</strong> (avena, manzana con piel, lentejas, chía): forma un gel en el intestino que 
+                            retrasa la absorción de glucosa. Estudios muestran que 14 g adicionales de fibra/día pueden reducir la HbA1c 
+                            en 0.3–0.5%.
+                        </li>
+                        <li>
+                            <strong>Grasas saludables</strong> (aguacate, frutos secos sin sal, aceite de oliva, pescado graso): no suben 
+                            la glucosa y protegen el corazón muy importante, porque la diabetes duplica el riesgo de infarto.
+                        </li>
+                        <li>
+                            <strong>Proteínas vegetales</strong> (frijoles, soya, quinua): tienen menos grasa saturada que las carnes 
+                            procesadas y mejoran la sensibilidad a la insulina con el tiempo.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Qué limitar y alternativas prácticas</h3>
+                    <ul class="content-list">
+                        <li>
+                            <strong>Bebidas azucaradas</strong> (refrescos, jugos envasados, "aguas saborizadas"): una lata de refresco 
+                            puede tener 40 g de azúcar más del doble de lo que el hígado puede procesar de un solo golpe. 
+                            <strong>Mejor:</strong> agua con limón natural, té sin azúcar o infusiones de canela (que algunos estudios 
+                            sugieren tienen un leve efecto modulador de glucosa, aunque no sustituye medicamentos).
+                        </li>
+                        <li>
+                            <strong>Alimentos ultraprocesados</strong> (galletas "light", pan blanco, embutidos, snacks "sin grasa"): 
+                            suelen contener harinas refinadas, azúcares ocultos (maltodextrina, jarabe de maíz) y grasas trans (parcialmente 
+                            hidrogenadas), que aumentan la inflamación y el riesgo cardiovascular.
+                        </li>
+                        <li>
+                            <strong>Frituras frecuentes:</strong> no está prohibido un anticucho ocasional, pero el aceite reutilizado y 
+                            las altas temperaturas generan compuestos que dañan los vasos sanguíneos. Prefiera asar, hervir, al vapor o 
+                            a la plancha.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="important-note-box">
+                    <h4>Importante: la dieta no funciona sola</h4>
+                    <p>La alimentación es más efectiva cuando se combina con:</p>
+                    <ul class="content-list">
+                        <li>
+                            <strong>Actividad física regular:</strong> 30 minutos al día (caminar, bailar, subir escaleras) lo ideal es 
+                            que vaya al gimnasio para entrenamiento de fuerza, mejora la sensibilidad a la insulina por hasta 48 horas.
+                        </li>
+                        <li>
+                            <strong>Sueño de calidad:</strong> dormir menos de 6 horas altera las hormonas del hambre (leptina y grelina) 
+                            y puede aumentar el deseo de carbohidratos simples.
+                        </li>
+                        <li>
+                            <strong>Manejo del estrés:</strong> el cortisol elevado (por ansiedad, trabajo, problemas familiares) sube la 
+                            glucosa, incluso si come bien. Técnicas simples como respirar 4-7-8 (inhalar 4 seg, retener 7, exhalar 6) pueden 
+                            ayudar.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 6: Herramienta Interactiva -->
+            <section id="herramienta" class="content-section">
+                <h2 class="section-title">6. Herramienta Interactiva: Predictor Educativo de Riesgo Glucémico</h2>
+                
+                <div class="warning-banner">
+                    <span class="warning-icon">⚠️</span>
+                    <div class="warning-content">
+                        <strong>Importante:</strong> Esta herramienta es únicamente educativa y no debe usarse para tomar decisiones clínicas. 
+                        Siempre consulte con su equipo médico para el manejo de la diabetes. Los resultados son estimaciones basadas en modelos 
+                        epidemiológicos y no representan un diagnóstico personalizado.
+                    </div>
+                </div>
+
+                <p class="tool-description">
+                    Ayudar a las personas con diabetes a comprender visualmente cómo sus hábitos diarios impactan en su control glucémico, 
+                    promoviendo la toma de decisiones informadas y empoderando su autocuidado. No reemplaza la consulta médica, sino que la complementa.
+                </p>
+
+                <div class="tool-container">
+                    <div class="tool-form-section">
+                        <h3 class="form-title">Ingrese los siguientes datos:</h3>
+                        
+                        <div class="form-group">
+                            <label for="hoursSinceMeal" class="form-label">
+                                Hora de la última comida (horas atrás):
+                            </label>
+                            <input 
+                                type="number" 
+                                id="hoursSinceMeal" 
+                                class="form-input" 
+                                min="0" 
+                                max="24" 
+                                value="2"
+                                step="0.5"
+                            >
+                            <small class="form-help">¿Cuántas horas han pasado desde la última comida?</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="activityLevel" class="form-label">
+                                Nivel de actividad física:
+                            </label>
+                            <select id="activityLevel" class="form-select">
+                                <option value="sedentary">Sedentario (sentado, sin actividad)</option>
+                                <option value="light" selected>Leve (caminar, tareas domésticas)</option>
+                                <option value="moderate">Moderado (ejercicio aeróbico 30 min)</option>
+                                <option value="intense">Intenso (deporte/entrenamiento)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="stressLevel" class="form-label">
+                                Nivel de estrés percibido:
+                            </label>
+                            <select id="stressLevel" class="form-select">
+                                <option value="low" selected>Bajo</option>
+                                <option value="moderate">Moderado</option>
+                                <option value="high">Alto</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sleepHours" class="form-label">
+                                Horas de sueño la noche anterior:
+                            </label>
+                            <input 
+                                type="number" 
+                                id="sleepHours" 
+                                class="form-input" 
+                                min="0" 
+                                max="24" 
+                                value="8"
+                                step="0.5"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="diabetesType" class="form-label">
+                                Tipo de diabetes (opcional):
+                            </label>
+                            <select id="diabetesType" class="form-select">
+                                <option value="none" selected>No diagnosticado (solo educativo)</option>
+                                <option value="type1">Tipo 1</option>
+                                <option value="type2">Tipo 2</option>
+                                <option value="gestational">Gestacional</option>
+                            </select>
+                        </div>
+
+                        <button id="calculateBtn" class="btn btn-primary btn-large">Calcular Riesgo</button>
+                        <button id="resetBtn" class="btn btn-secondary btn-large">Limpiar</button>
+                    </div>
+
+                    <div class="tool-results-section">
+                        <div id="resultsPlaceholder" class="results-placeholder">
+                            <p>Complete el formulario y haga clic en "Calcular Riesgo" para ver el análisis.</p>
+                        </div>
+                        <div id="resultsContent" class="results-content" style="display: none;">
+                            <div class="risk-header">
+                                <h3 class="risk-title">Análisis de Riesgo Glucémico</h3>
+                                <div id="riskBadge" class="risk-badge"></div>
+                            </div>
+                            
+                            <div id="riskScore" class="risk-score"></div>
+                            
+                            <div id="chartContainer" class="chart-container">
+                                <canvas id="riskChart"></canvas>
+                            </div>
+                            
+                            <div id="riskFactors" class="risk-factors"></div>
+                            
+                            <div id="recommendations" class="recommendations"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 7: Artículos Médicos -->
+            <section id="articulos" class="content-section">
+                <h2 class="section-title">7. Artículos Médicos</h2>
+                <p class="section-description">
+                    Artículos médicos descargables en PDF, elaborados con base en guías internacionales y adaptados a nuestra realidad boliviana.
+                </p>
+
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <div class="article-icon">📄</div>
+                        <h3 class="article-title">Diagnóstico y Clasificación de la Diabetes Mellitus</h3>
+                        <p class="article-description">Criterios diagnósticos y clasificación según estándares internacionales</p>
+                        <div class="article-actions">
+                            <a href="articulos/articulos/diagnostico y clasificacion DM.pdf" target="_blank" class="btn btn-primary btn-small">Ver PDF</a>
+                            <a href="articulos/articulos/diagnostico y clasificacion DM.pdf" download class="btn btn-secondary btn-small">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-icon">📄</div>
+                        <h3 class="article-title">DM en Bolivia</h3>
+                        <p class="article-description">Epidemiología y situación actual de la diabetes en Bolivia</p>
+                        <div class="article-actions">
+                            <a href="articulos/articulos/DM EN BOLVIA.pdf" target="_blank" class="btn btn-primary btn-small">Ver PDF</a>
+                            <a href="articulos/articulos/DM EN BOLVIA.pdf" download class="btn btn-secondary btn-small">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-icon">📄</div>
+                        <h3 class="article-title">Epidemiología de la Diabetes Mellitus</h3>
+                        <p class="article-description">Estudios epidemiológicos y prevalencia a nivel mundial</p>
+                        <div class="article-actions">
+                            <a href="articulos/articulos/Epidemiologia DM.pdf" target="_blank" class="btn btn-primary btn-small">Ver PDF</a>
+                            <a href="articulos/articulos/Epidemiologia DM.pdf" download class="btn btn-secondary btn-small">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-icon">📄</div>
+                        <h3 class="article-title">Epidemiología Genética de la DM</h3>
+                        <p class="article-description">Factores genéticos y hereditarios en la diabetes</p>
+                        <div class="article-actions">
+                            <a href="articulos/articulos/epidemiologia genetica DM.pdf" target="_blank" class="btn btn-primary btn-small">Ver PDF</a>
+                            <a href="articulos/articulos/epidemiologia genetica DM.pdf" download class="btn btn-secondary btn-small">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-icon">📄</div>
+                        <h3 class="article-title">Tratamiento Farmacológico de la Diabetes Mellitus Tipo 2</h3>
+                        <p class="article-description">Guía sobre medicamentos y tratamiento farmacológico</p>
+                        <div class="article-actions">
+                            <a href="articulos/articulos/tratamiento farmacologico de la diabes mellitus tipo 2.pdf" target="_blank" class="btn btn-primary btn-small">Ver PDF</a>
+                            <a href="articulos/articulos/tratamiento farmacologico de la diabes mellitus tipo 2.pdf" download class="btn btn-secondary btn-small">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-icon">📄</div>
+                        <h3 class="article-title">Tratamiento No Farmacológico de la Diabetes Mellitus Tipo 2</h3>
+                        <p class="article-description">Enfoques de estilo de vida, dieta y ejercicio</p>
+                        <div class="article-actions">
+                            <a href="articulos/articulos/Tratamiento no farmacologico de la diabes mellitus tipo 2.pdf" target="_blank" class="btn btn-primary btn-small">Ver PDF</a>
+                            <a href="articulos/articulos/Tratamiento no farmacologico de la diabes mellitus tipo 2.pdf" download class="btn btn-secondary btn-small">Descargar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Equipo Médico -->
+            <section id="equipo" class="content-section">
+                <h2 class="section-title">Equipo Médico</h2>
+                <p class="section-description">Integrantes del proyecto DIABRED BOLIVIA</p>
+
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-icon">👨‍⚕️</div>
+                        <h3 class="member-name">Dr. Gunder Rolando Aguirre Nina</h3>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">👨‍⚕️</div>
+                        <h3 class="member-name">Dr. Hilder Yambal Limachi Huanca</h3>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">👨‍⚕️</div>
+                        <h3 class="member-name">Dr. Jaime Marcelo Medina Vera</h3>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">👨‍⚕️</div>
+                        <h3 class="member-name">Dr. Willy Claudio Tarifa Aliaga</h3>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">👨‍⚕️</div>
+                        <h3 class="member-name">Dr. Franck Edgardo Chacón Bozo</h3>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">👩‍⚕️</div>
+                        <h3 class="member-name">Dra. Daniela Sara Conde Ortega</h3>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">👨‍⚕️</div>
+                        <h3 class="member-name">Dr. Wilfredo Tancara Cuentas</h3>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DIABRED BOLIVIA</h4>
+                    <p>Red de conocimiento y apoyo sobre Diabetes Mellitus</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#concepto">¿Qué es la Diabetes?</a></li>
+                        <li><a href="#herramienta">Herramienta Interactiva</a></li>
+                        <li><a href="#articulos">Artículos Médicos</a></li>
+                        <li><a href="#equipo">Equipo Médico</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Información Legal</h4>
+                    <p class="footer-note">
+                        Esta herramienta es únicamente educativa y no debe usarse para tomar decisiones clínicas. 
+                        Siempre consulte con su equipo médico.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DIABRED BOLIVIA — Proyecto Académico · Inteligencia Artificial en Salud</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
